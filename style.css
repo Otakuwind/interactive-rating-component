@@ -75,7 +75,7 @@ p{
     background-color:hsl(216, 12%, 54%) ;
 }
 
-.btn{
+.submit-btn{
 background-color:hsl(25, 97%, 53%) ;
     color: white;
      width: 97%;
@@ -89,7 +89,7 @@ background-color:hsl(25, 97%, 53%) ;
    letter-spacing: 2px;
 }
 /*hover state*/
-.btn:hover{
+.submit-btn:hover{
     background-color:hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
 }
@@ -97,19 +97,22 @@ background-color:hsl(25, 97%, 53%) ;
 
 /*modal*/
 
-#thankYou{
-    display: none;
-}
-.mfrm{
-   display: flex;
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  text-align: center;
 }
 
-.mcard{
-    background-color:hsl(213, 19%, 18%);
+
+/* Modal Content */
+.modal-content {
+   background-color:hsl(213, 19%, 18%);
   max-width: 40ch;
    padding: 2rem;
     border-radius: 2rem;
@@ -117,9 +120,19 @@ background-color:hsl(25, 97%, 53%) ;
     margin-top: 5em;
 }
 
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-.mcontent title{
-    margin-top: 20px;
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .selected{
@@ -131,3 +144,36 @@ background-color:hsl(25, 97%, 53%) ;
     color:hsl(25, 97%, 53%) ;
     border-radius: 2rem;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    width: 100%;
+    font-size: 10px; 
+ position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
