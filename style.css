@@ -50,3 +50,40 @@ p{
     letter-spacing: .5px;
     line-height: 1.5;
 }
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+  background-color: hsla(216, 12%, 54%,0.2);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 6px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 3rem;
+  line-height: 3;
+}
+.button:hover{
+    background-color:hsl(216, 12%, 54%) ;
+}
+
+.btn{
+background-color:hsl(25, 97%, 53%) ;
+    color: white;
+     width: 97%;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+   margin-right: 6px;
+   margin-left: 0px;
+   border: none;
+   font-weight: bold;
+   letter-spacing: 2px;
+}
