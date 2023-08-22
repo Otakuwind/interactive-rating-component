@@ -135,16 +135,12 @@ background-color:hsl(25, 97%, 53%) ;
   cursor: pointer;
 }
 
-.selected{
-    width: 100%;
-    max-width: 25ch;
-    margin: 0 auto;
-    padding: .2rem;
-    background-color:hsla(216, 12%, 54%,0.2) ;
-    color:hsl(25, 97%, 53%) ;
-    border-radius: 2rem;  
-}
 
+
+
+.active, button:hover {
+    background-color:hsl(25, 97%, 53%) ;
+}
 
 
 
