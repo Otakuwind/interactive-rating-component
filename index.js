@@ -39,7 +39,7 @@ buttons.forEach(button => {
     });
 });
 
-
+// To display selected number on modal
 const btns = document.querySelectorAll(".rate");
 const ratingContainer = document.getElementById("rating-state");
 const appreciationContainer = document.getElementById("appreciation");
