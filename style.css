@@ -184,6 +184,10 @@ background-color:hsl(25, 97%, 53%) ;
 }
 
 
+.active, button:hover {
+    background-color:hsl(25, 97%, 53%) ;
+}
+
 }
 
 
