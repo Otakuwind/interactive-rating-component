@@ -142,8 +142,49 @@ background-color:hsl(25, 97%, 53%) ;
     background-color:hsl(25, 97%, 53%) ;
 }
 
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  /* Add styles for tablets and larger screens here */
+}
+
+/* Styles for smaller screens (mobile devices) */
+@media (max-width: 391px) {
+  body{
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.frm{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card{
+    background-color:hsl(213, 19%, 18%);
+  max-width: 34ch;
+   padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.modal-content {
+   background-color:hsl(213, 19%, 18%);
+  max-width: 34ch;
+   padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 5em;
+}
 
 
+}
 
 
 
