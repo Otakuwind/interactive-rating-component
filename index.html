@@ -32,11 +32,11 @@
         
           
         <div class="numbers" id="rating-state"> 
-          <button class="button button1">1</button>
-          <button class="button button2">2</button>
-          <button class="button button3">3</button>
-          <button class="button button4">4</button>
-          <button class="button button5">5</button>
+          <button class="rate" value="1">1</button>
+          <button class="rate" value="2">2</button>
+          <button class="rate" value="3">3</button>
+          <button class="rate" value="4">4</button>
+          <button class="rate" value="5">5</button>
         </div>
         <button id="myBtn" class="submit-btn">SUBMIT</button>
 
@@ -52,11 +52,10 @@
 <div id="myModal" class="modal" style="display:none ;">
 
   <!-- Modal content -->
-  <div class="modal-content">
+  <div class="modal-content" id="appreciation">
     <span class="close">&times;</span>
      <img src="images/illustration-thank-you.svg" alt="thank you ">
-    <p class="selected">You selected <span class="userValue">0</span> out of 5
-      </p>
+    <p id="pick"></p>
       <h1>Thank you!</h1>
       <p>
         We appreciate you taking the time to give a rating. If you ever need more support,

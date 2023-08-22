@@ -9,7 +9,7 @@ var normal = document.getElementById("page-preview");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+btn.onclick = function( ratedDisplay) {
   modal.style.display = "block";
    normal.style.display = "none";
 }
@@ -28,6 +28,8 @@ window.onclick = function(event) {
 }
 
 
+// Active state when a number is selected
+
 let buttons = document.querySelectorAll('button');
 
 buttons.forEach(button => {
@@ -36,3 +38,21 @@ buttons.forEach(button => {
         this.classList.add('active');        
     });
 });
+
+
+const btns = document.querySelectorAll(".rate");
+const ratingContainer = document.getElementById("rating-state");
+const appreciationContainer = document.getElementById("appreciation");
+const ratePick = document.getElementById("pick");
+
+
+function ratedDisplay() {
+  ratingContainer.style.display = "none";
+  appreciationContainer.style.display = "flex";
+}
+
+for (let x of btns) {
+  x.addEventListener("click", () => {
+    ratePick.innerHTML = `You selected ${x.value} out of 5`
+  });
+}
