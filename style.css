@@ -101,7 +101,7 @@ background-color:hsl(25, 97%, 53%) ;
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
+ display: none;
   text-align: center;
   display: flex;
   justify-content: center;
